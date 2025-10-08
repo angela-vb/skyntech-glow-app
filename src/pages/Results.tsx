@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { useNavigate } from "react-router-dom";
 import { ArrowLeft, AlertCircle, Droplets, Sun, Activity } from "lucide-react";
-import faceScanResult from "@/assets/face-scan-result.png";
+import faceScanResult from "@/assets/scan-complete.png";
 
 const Results = () => {
   const navigate = useNavigate();

@@ -3,7 +3,7 @@ import { Card } from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress";
 import { useNavigate } from "react-router-dom";
 import { Camera, Calendar, Home, ShoppingBag, Stethoscope, User } from "lucide-react";
-import doctorIllustration from "@/assets/doctor-illustration.png";
+import welcomeDoctor from "@/assets/welcome-doctor.png";
 import userIcon from "@/assets/user-icon.png";
 
 const Dashboard = () => {
@@ -44,9 +44,9 @@ const Dashboard = () => {
               </Button>
             </div>
             <img 
-              src={doctorIllustration} 
+              src={welcomeDoctor} 
               alt="Dermatologist" 
-              className="w-48 h-48 object-contain hidden md:block"
+              className="w-40 h-auto object-contain hidden md:block drop-shadow-xl"
             />
           </div>
         </Card>

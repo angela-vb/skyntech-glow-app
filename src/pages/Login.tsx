@@ -14,8 +14,8 @@ const Login = () => {
 
   const handleSignIn = (e: React.FormEvent) => {
     e.preventDefault();
-    // For now, just navigate to dashboard
-    navigate("/dashboard");
+    // Navigate to personalized welcome page
+    navigate("/welcome");
   };
 
   return (

@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { useNavigate } from "react-router-dom";
 import { ArrowLeft, Camera } from "lucide-react";
-import faceScan from "@/assets/face-scan.png";
+import faceScan from "@/assets/face-scanning.png";
 
 const Scan = () => {
   const navigate = useNavigate();
